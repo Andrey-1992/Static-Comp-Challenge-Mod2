@@ -9,6 +9,14 @@
 /* Steel blue: #2a759c */
 /* Dark gray: #424242 */
 
+
+/*
+.cookpot-logo {
+  width: 10px;
+  height: 10px;
+  position:relative;
+  padding: 50px 50px 50px 50px;
+} */
 /* HEADER VIEW DISPLAY */
 
 .header-section{
@@ -52,8 +60,9 @@ main {
 
 h2 {
   color: #424242;
-  padding : 2% 1% 0% 2%;
   font-size: 300%;
+  padding : 2% 1% 0% 2%;
+  margin: 0%;
 }
 
 .shares-view {
