@@ -65,18 +65,21 @@ nav {
 
 .shares-section {
     /* border: 1px solid yellow; */
+  display: flex;
   width: max-content;
   margin-right: 20%;
 }
 
 .playlist-section {
     /* border: 1px solid yellow; */
+  display: flex;
   width: max-content;
   margin-right: 20%;
 }
 
 .scores-section {
     /* border: 1px solid yellow; */
+  display: flex;
   width: max-content;
   margin-right: 20%;
 }
@@ -116,10 +119,18 @@ h2 {
 
 }
 
+.card-img {
+  /* background-size: url('./assets/hanns-zimmer.jpg'); */
+  /* background-size: 80%;
+  background-repeat:  */
+  /* background-repeat: no-repeat; */
+  /* height: 30%; */
+}
+
 .views-num {
   display: flex;
   align-items: center;
-  background-image: url("./assets/hanns-zimmer.jpg");
+  /* background-image: url("./assets/hanns-zimmer.jpg"); */
 }
 
 .artist-info {
