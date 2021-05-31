@@ -30,6 +30,14 @@ nav {
   align-content: space-between;
 }
 
+/*
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-left: 5%;
+} */
+
 
 /* SHARES VIEW DISPLAY */
 
@@ -41,34 +49,74 @@ nav {
 
 .cards-wrapper {
   border: 1px solid black;
-  display: flex;
-  flex-direction: column;
 }
 
 
 /* CARD DISPALY VIEW */
 
 .card-display {
-    border: 5px solid purple;
+  border: 5px solid purple;
 }
 
 .views-num {
   display: flex;
   align-items: center;
+  background-image: url("./assets/hanns-zimmer.jpg");
 }
 
 .name-date-info {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .url-addres {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .playlist-name {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .attachments {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
+
+/* MEDIA QUERIES */
+
+/* 1025px and higher desktops */
+@media (min-width: 1025px) {
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1%;
+  }
+}
+
+/* 768px - 1024px | Tablets (landscape) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1%;
+  }
+}
+
+/* 481px to 767px | Large Phones/Small Tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 0.5%;
+  }
+}
+
+/* 320px to 480px | Small Phones */
+@media  (min-width: 320px) and (max-width: 480px) {
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 0.5%;
+  }
