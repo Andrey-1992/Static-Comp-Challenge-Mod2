@@ -116,7 +116,7 @@ h2 {
 
 .card-display {
   background-color: #ffffff;
-
+  cursor: zoom-in;
 }
 
 .card-img {
@@ -125,7 +125,7 @@ h2 {
   background-repeat:  */
   /* background-repeat: no-repeat; */
   height: 22%;
-  margin: 0%;
+  /* margin: 0%; */
 }
 
 .views-num {
