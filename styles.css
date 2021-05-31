@@ -2,60 +2,78 @@
   /* border: 1px solid red; */
 }
 
+/* COLOR PALETTE */
+/* Gray: #2b2b2b */
+/* White smoke: #efefef */
+/* White: #ffffff */
+/* Steel blue: #2a759c */
+/* Dark gray: #424242 */
+
 /* HEADER VIEW DISPLAY */
 
 .header-section{
   display: flex;
   flex-direction: column;
   align-content: flex-end;
-  border: 1px solid green;
+  /* border: 1px solid green; */
+  background-color: #2b2b2b
 }
 
 .admin-user{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
+  color: #2a759c;
+  padding-right: 2%;
 }
 
 .nav-bar-comp-logo {
   display: flex;
   justify-content: space-between;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
+  color: #efefef;
+}
+
+.logo-comp {
+    padding-right: 2%;
 }
 
 nav {
   display: flex;
-  flex-direction: row;
   align-content: space-between;
+  padding-left: 2%;
 }
 
-/*
-main {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  margin-left: 5%;
-} */
-
-
 /* SHARES VIEW DISPLAY */
+main {
+    background-color: #efefef;
+}
+
+h2 {
+  color: #424242;
+  padding : 2% 1% 0% 2%;
+  font-size: 300%;
+}
 
 .shares-view {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
+  /* background-color: #ffffff; */
+  /* border: 1px solid black; */
+  /* background-color: solid black; */
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .cards-wrapper {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  padding: 1%;
 }
-
 
 /* CARD DISPALY VIEW */
 
 .card-display {
-  border: 5px solid purple;
+  background-color: #ffffff;
+
 }
 
 .views-num {
@@ -64,20 +82,46 @@ main {
   background-image: url("./assets/hanns-zimmer.jpg");
 }
 
+.artist-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start ;
+  width: 90%;
+  /* border: 1px solid black; */
+}
+
 .name-date-info {
+  margin: 5%;
+  /* border: 1px solid black; */
+}
+
+.playlist-name {
+  margin: 5%;
   /* border: 1px solid black; */
 }
 
 .url-addres {
   /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  background-color: #efefef;
+  width: 90%;
+  height: 35px;
+  margin: auto;
+  paddin: 5%;
 }
 
-.playlist-name {
-  /* border: 1px solid black; */
+.followers {
+  margin: 5%;
+  /* margin: auto; */
+  /* color: #2a759c;
+  border: 1px solid black; */
 }
 
-.attachments {
-  /* border: 1px solid black; */
+.followers-num {
+  margin: 5%;
+  color: #2a759c;
+  font-size: 200%;
 }
 
 /* MEDIA QUERIES */
@@ -88,7 +132,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 1%;
+    grid-gap: 1.5%;
   }
 }
 
@@ -98,7 +142,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 1%;
+    grid-gap: 1.5%;
   }
 }
 
@@ -108,7 +152,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 0.5%;
+    grid-gap: 1%;
   }
 }
 
@@ -118,5 +162,5 @@ main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 0.5%;
+    grid-gap: 1%;
   }
