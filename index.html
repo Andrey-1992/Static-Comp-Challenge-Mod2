@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="./styles.css">
     <title>Static Composition</title>
   </head>
   <body>
     <header>
       <section class="header-section">
-        <section class="admin-user">
-            <img src="./assets/user-white.png" alt="User Icon" width="30" height="30" >
-          <p>Admin Username</p>
+        <section class="top-header">
+          <figure class="admin-user">
+              <img class="user-icon" src="./assets/blue-user-icon.png" alt="User Icon" width="40" height="40" >
+            <figcaption>Andrey-1992</figcaption>
+          </figure>
         </section>
         <section class="nav-bar">
-        <section class="nav-bar-comp-logo">
           <nav>
-            <div class="shares-section">
-              <img src="./assets/share-icon.jpg" alt="Shares Icon" width="30" height="30" >
-              <p class="shares-btn">Shares</p>
-            </div>
-            <div class="playlist-section">
-              <img src="./assets/list-icon.png" alt="Playlist Icon" width="30" height="30" >
-              <p class="playlists-btn">Playlists</p>
-            </div>
-            <div class="scores-section">
-              <img src="./assets/film.png" alt="Films Icon" width="30" height="30" >
-              <p class="personal-videos-btn">Films</p>
-            </div>
+            <figure class="shares-section">
+              <img  class="share-icon" src="./assets/blue-shares-icon.png" alt="Shares Icon" width="30" height="30" >
+              <figcaption class="shares-btn">Shares</figcaption>
+            </figure>
+            <figure class="playlist-section">
+              <img class="playlist-icon" src="./assets/blue-list-icon.png" alt="Playlist Icon" width="30" height="30" >
+              <figcaption class="playlists-btn">Playlists</figcaption>
+            </figure>
+            <figure class="scores-section">
+              <img class="score-icon" src="./assets/blue-film-icon.png" alt="Films Icon" width="30" height="30" >
+              <figcaption class="personal-videos-btn">Films</figcaption>
+            </figure>
           </nav>
         </section>
-        <section class="logo-comp">
-          <div>
-            <img src="./assets/company-logo.png" alt="Company Logo Icon" width="50" height="50">
-          </div>
-        </section>
-      </section>
       </section>
     </header>
     <main>
@@ -42,12 +42,7 @@
         <section class ="cards-wrapper">
           <article class="card-display">
             <div class="card-img" style="background-image: url('./assets/hanns-zimmer.jpg'); background-size:72%; background-position: center;">
-              <!-- <div>
-                <button>go back pic</button>
-              </div> -->
-              <div class="favorite-icon">
-                <!-- <img class="fav" src="./assets/favorite-icon.png" alt="Favorite Icon"> -->
-              </div>
+              <img class="score-icon" src="./assets/blue-shares-icon.png" alt="Films Icon" width="30" height="30">
             </div>
             <section class="artist-info">
               <div class="name-date-info">
@@ -80,13 +75,7 @@
           </article>
           <article class="card-display">
             <div class="card-img" style="background-image: url('./assets/danny.jpeg'); background-size:95%; background-position: bottom;">
-              <div class="view-btn">
-                <!-- <button>go back pic</button> -->
-              </div>
-              <div class="view-display">
-                <!-- <p>VIEWS</p>
-                <p>02</p> -->
-              </div>
+              <img class="score-icon" src="./assets/blue-shares-icon.png" alt="Films Icon" width="30" height="30">
             </div>
             <section class="artist-info">
               <div class="name-date-info">
@@ -119,13 +108,7 @@
           </article>
           <article class="card-display">
             <div class="card-img" style="background-image: url('./assets/ennio.jpeg'); background-size:77%; background-position: center;">
-              <div class="view-btn">
-                <!-- <button>go back pic</button> -->
-              </div>
-              <div class="view-display">
-                <!-- <p>VIEWS</p>
-                <p>02</p> -->
-              </div>
+              <img class="score-icon" src="./assets/blue-shares-icon.png" alt="Films Icon" width="30" height="30">
             </div>
             <section class="artist-info">
               <div class="name-date-info">
@@ -158,13 +141,7 @@
           </article>
           <article class="card-display">
             <div class="card-img" style="background-image: url('./assets/desplant.jpeg'); background-size:75%; background-position: center;">
-              <div class="view-btn">
-                <!-- <button>go back pic</button> -->
-              </div>
-              <div class="view-display">
-                <!-- <p>VIEWS</p>
-                <p>02</p> -->
-              </div>
+              <img class="score-icon" src="./assets/blue-shares-icon.png" alt="Films Icon" width="30" height="30">
             </div>
             <section class="artist-info">
               <div class="name-date-info">
@@ -197,13 +174,7 @@
           </article>
           <article class="card-display">
             <div class="card-img" style="background-image: url('./assets/williams.jpeg'); background-size:95%; background-position: top;">
-              <div class="view-btn">
-                <!-- <button>go back pic</button> -->
-              </div>
-              <div class="view-display">
-                <!-- <p>VIEWS</p>
-                <p>02</p> -->
-              </div>
+              <img class="score-icon" src="./assets/blue-shares-icon.png" alt="Films Icon" width="30" height="30">
             </div>
             <section class="artist-info">
               <div class="name-date-info">
@@ -236,13 +207,7 @@
           </article>
           <article class="card-display">
             <div class="card-img" style="background-image: url('./assets/glass-philip.jpeg'); background-size:95%; background-position: center;">
-              <div class="view-btn">
-                <!-- <button>go back pic</button> -->
-              </div>
-              <div class="view-display">
-                <!-- <p>VIEWS</p>
-                <p>02</p> -->
-              </div>
+              <img class="score-icon" src="./assets/blue-shares-icon.png" alt="Films Icon" width="30" height="30">
             </div>
             <section class="artist-info">
               <div class="name-date-info">
@@ -275,13 +240,9 @@
           </article>
           <article class="card-display">
             <div class="card-img" style="background-image: url('./assets/santaolalla.jpeg'); background-size:85%; background-position: center;">
-              <div class="view-btn">
-                <button>go back pic</button>
-              </div>
-              <div class="view-display">
+              <img class="score-icon" src="./assets/blue-shares-icon.png" alt="Films Icon" width="30" height="30">
                 <p>VIEWS</p>
                 <p>02</p>
-              </div>
             </div>
             <section class="artist-info">
               <div class="name-date-info">
@@ -313,14 +274,8 @@
             </section>
           </article>
           <article class="card-display">
-              <div class="card-img" style="background-image: url('./assets/gudnadottir.jpeg'); background-size:95%; background-position: top;">
-              <div class="view-btn">
-                <!-- <button>go back pic</button> -->
-              </div>
-              <div class="view-display">
-                <!-- <p>VIEWS</p>
-                <p>02</p> -->
-              </div>
+            <div class="card-img" style="background-image: url('./assets/gudnadottir.jpeg'); background-size:95%; background-position: top;">
+              <img class="score-icon" src="./assets/blue-shares-icon.png" alt="Films Icon" width="30" height="30">
             </div>
             <section class="artist-info">
               <div class="name-date-info">

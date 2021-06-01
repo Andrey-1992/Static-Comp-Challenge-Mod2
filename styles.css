@@ -7,131 +7,111 @@
 /* Dark gray: #424242 */
 
 
-/*
-.cookpot-logo {
-  width: 10px;
-  height: 10px;
-  position:relative;
-  padding: 50px 50px 50px 50px;
-} */
+/* FONT STYLES */
+/* font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive; */
+
 
 /* WHOLE BODY SECTION */
 body {
   margin: 0%;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* HEADER VIEW DISPLAY */
 .header-section{
   display: flex;
   flex-direction: column;
-  /* align-content: flex-end; */
   background-color: #2b2b2b
 }
 
 .admin-user{
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-content: flex-end;
+  align-items: center;
   color: #2a759c;
-  padding: 2%;
+  margin-right: 10%;
+}
+
+.user-icon {
+  margin: 1%;
 }
 
 .nav-bar {
   display: flex;
-    /* border: 1px solid yellow; */
-    flex-direction: row;
-    align-items: center;
-}
-
-
-
-.nav-bar-comp-logo {
-  /* border: 1px solid yellow; */
-  display: flex;
-  align-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
   color: #efefef;
   width: 80%;
 }
 
-.logo-comp {
-    padding-right: 2%;
-}
-
+/* Navigation Bar */
 nav {
   display: flex;
-  align-content: space-between;
-  padding-left: 2%;
+  align-content: center;
 }
 
 .shares-section {
-    /* border: 1px solid yellow; */
   display: flex;
+  align-items: center;
   width: max-content;
+  margin-right: 20%;
+}
+
+.share-icon {
   margin-right: 20%;
 }
 
 .playlist-section {
-    /* border: 1px solid yellow; */
   display: flex;
+  align-items: center;
   width: max-content;
+  margin-right: 20%;
+}
+
+.playlist-icon {
   margin-right: 20%;
 }
 
 .scores-section {
-    /* border: 1px solid yellow; */
   display: flex;
+  align-items: center;
   width: max-content;
   margin-right: 20%;
 }
 
-
-
+.score-icon {
+  margin-right: 20%;
+}
 
 /* SHARES VIEW DISPLAY */
 main {
-    background-color: #efefef;
+  background-color: #efefef;
 }
 
 h2 {
+  font-family: 'Stint Ultra Condensed';
   color: #424242;
-  font-size: 300%;
+  font-size: 450%;
   padding : 2% 1% 0% 2%;
   margin: 0%;
 }
 
-.shares-view {
-  /* background-color: #ffffff; */
-  /* border: 1px solid black; */
-  /* background-color: solid black; */
-  /* display: flex;
-  flex-direction: column; */
-}
-
+/* CARD DISPALY VIEW */
 .cards-wrapper {
-  /* border: 1px solid black; */
   padding: 1%;
 }
-
-/* CARD DISPALY VIEW */
 
 .card-display {
   background-color: #ffffff;
   cursor: zoom-in;
+  font-family: 'Lora', serif;
 }
 
 .card-img {
-  /* background-size: url('./assets/hanns-zimmer.jpg'); */
-  /* background-size: 80%;
-  background-repeat:  */
-  /* background-repeat: no-repeat; */
-  height: 22%;
-  /* margin: 0%; */
-}
-
-.views-num {
-  display: flex;
-  align-items: center;
-  /* background-image: url("./assets/hanns-zimmer.jpg"); */
+  height: 25%;
 }
 
 .artist-info {
@@ -139,21 +119,17 @@ h2 {
   flex-direction: column;
   align-items: flex-start ;
   width: 90%;
-  /* border: 1px solid black; */
 }
 
 .name-date-info {
   margin: 5%;
-  /* border: 1px solid black; */
 }
 
 .playlist-name {
   margin: 5%;
-  /* border: 1px solid black; */
 }
 
 .url-addres {
-  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   background-color: #efefef;
@@ -165,9 +141,6 @@ h2 {
 
 .followers {
   margin: 5%;
-  /* margin: auto; */
-  /* color: #2a759c;
-  border: 1px solid black; */
 }
 
 .followers-num {
@@ -175,7 +148,6 @@ h2 {
   color: #2a759c;
   font-size: 200%;
 }
-
 
 /* HOVER */
 .card-display:hover {
@@ -186,8 +158,8 @@ h2 {
   width: 95%;
 }
 
-/* MEDIA QUERIES */
 
+/* MEDIA QUERIES */
 /* 1025px and higher desktops */
 @media (min-width: 1025px) {
   .cards-wrapper {
@@ -216,6 +188,11 @@ h2 {
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 1%;
   }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 }
 
 /* 320px to 480px | Small Phones */
@@ -226,3 +203,9 @@ h2 {
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 1%;
   }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
