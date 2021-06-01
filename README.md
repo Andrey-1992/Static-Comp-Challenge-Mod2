@@ -8,8 +8,7 @@
 * [Contributors](#Contributors)
 * [Languages](#Languages)
 
-file:///Users/andrey92/turing/module2/projects/Static-Comp/Static-Comp-Challenge-Mod2/index.html
-
+[Website](file:///Users/andrey92/turing/module2/projects/Static-Comp/Static-Comp-Challenge-Mod2/index.html)
 ## Introduction
 This is an interactive website that looking to display HTML and CSS incorporating responsive design. The challenge was to recreate a webpage based off of a provided static comp and provide a customized form from this website.
 
