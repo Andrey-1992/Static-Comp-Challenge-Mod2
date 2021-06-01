@@ -15,7 +15,8 @@ Original Comp:
 ![alt text](https://frontend.turing.edu/assets/images/static-comp-challenge-2.jpg "Original Comp")
 
 ## Links  
-![alt text](static-comp-project<img width="880" alt="static-comp-project" src="https://user-images.githubusercontent.com/78002374/120261703-addeca80-c255-11eb-8725-59b59c15868a.png">)
+![alt text](static-comp<img width="1436" alt="static-comp" src="https://user-images.githubusercontent.com/78002374/120261780-d8308800-c255-11eb-9785-2563215051b9.png">
+)
 
 ## Setup
 Fork and/or clone repo, open index.html in browser
